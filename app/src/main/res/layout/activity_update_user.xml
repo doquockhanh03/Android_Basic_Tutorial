@@ -100,27 +100,29 @@
                 android:layout_width="0dp"
                 android:background="@drawable/background_edt"
                 android:hint="Nguyen Van A"
-                android:padding="10dp"
+                android:padding="12dp"
                 android:layout_height="wrap_content"/>
 
             <EditText
                 android:id="@+id/edtDate"
+                android:hint="Ngay sinh"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvDate"
                 app:layout_constraintEnd_toEndOf="@id/tvDate"
                 android:layout_width="0dp"
                 android:background="@drawable/background_edt"
-                android:padding="10dp"
+                android:padding="12dp"
                 android:layout_marginStart="20dp"
                 android:layout_height="wrap_content"/>
 
             <EditText
                 android:id="@+id/edtPhone"
+                android:hint="So dien thoai"
                 app:layout_constraintStart_toStartOf="@id/tvPhone"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvPhone"
                 android:layout_width="0dp"
-                android:padding="10dp"
+                android:padding="12dp"
                 android:layout_marginEnd="20dp"
                 android:background="@drawable/background_edt"
                 android:layout_height="wrap_content"/>
